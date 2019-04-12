@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/aug.css" | relative_url }}"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div>
+      <div class="dropdown">
+        <p class="nav">
+          nav
+        </p>
+        <div class="dropdown-content">
+         {% include navigation.html %}
+        </div>
+      </div>
+    {{ content }}
+    </div>
+    <section class="auglysing">
+      <a href="https://www.mozilla.org/en-US/firefox/66.0.2/whatsnew/?oldversion=65.0.2">
+        <div class="texti1">
+          Veffari betri en explorer!<br>
+          Alveg frír!!
+        </div>
+        <div class="texti2">
+          Kannski betri en chrome!
+        </div>
+        <div class="strik">
+        </div>
+      </a>
+    </section>
+    {% include footer.html %}
+  </body>
+</html> 

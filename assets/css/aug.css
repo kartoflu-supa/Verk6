@@ -1,0 +1,75 @@
+a{
+    text-decoration-line: none;
+}
+
+.auglysing{
+ animation-name: aug;
+ animation-duration: 1s;
+ animation-direction: alternate;
+ animation-iteration-count: infinite;
+ overflow: hidden;
+ position: relative;
+ width: 50%;
+ left: 25%;
+}
+
+.texti1{
+    animation-name: hverfa;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    color: rgba(0, 0, 0, 100%);
+    position: relative;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.texti2{
+    animation-name: birta;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    color: rgba(0, 0, 0, 0%);
+    position: relative;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.strik{
+    animation-name: hreyfa;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    background-color: rgba(255, 0, 255, 70%);
+}
+
+@keyframes aug{
+    0%{background-color: rgba(255, 127, 127, 50%)}
+    50%{background-color: rgba(127, 255, 127, 50%)}
+    100%{background-color: rgba(127, 127, 255, 50%)}
+}
+
+@keyframes hverfa{
+    0%{color: rgba(0, 0, 0, 100%)}
+    100%{color: rgba(0, 0, 0, 0%)}
+}
+
+@keyframes birta{
+    0%{color: rgba(0, 0, 0, 0%)}
+    100%{color: rgba(0, 0, 0, 100%)}
+}
+
+@keyframes hreyfa{
+    0%{left: -100%;}
+    50%{left: 200%;}
+    100%{left: -100%;}
+}
