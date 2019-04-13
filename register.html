@@ -1,0 +1,38 @@
+---
+title: Register
+---
+<form>
+    Nafn: <br>
+    <input type="text" required> <br>
+    Sími: <br>
+    <input type="tel" pattern="[1-9]{3} [1-9]{4}" required> <br>
+    Tölvupóstur: <br>
+    <input type="email" required> <br>
+    Dagsetning: <br>
+    <input type="date" required> <br>
+    Hvað er uppahálds liturinn þin: <br>
+    <input type="color"> <br>
+    Hvaðan kemuru: <br>
+    <select required>
+        <option value="N/A" selected>Veldu</option>
+        <option value="að heiman">að heiman</option>
+        <option value="einhvert kalt">einhvert kalt</option>
+        <option value="frá geimnum">frá geimnum</option>
+        <option value="úr sjónum">úr sjónum</option>
+    </select> <br>
+    Kyn: <br> 
+    <input type="checkbox" name="kin" required>Maneskja
+    <input type="checkbox" name="kin" required>Kartefla
+    <input type="checkbox" name="kin" required>Súpa
+    <input type="checkbox" name="kin" required>Geimvera
+    <input type="checkbox" name="kin" required>Annað <br>
+    Ertu Vélmenni: <br> 
+    <input type="radio" name="kyn" required>Já 
+    <input type="radio" name="kyn" required>Nei 
+    <input type="radio" name="kyn" required>Hvorugt <br>
+    Útskýring: <br>
+    <textarea cols="30" rows="20">
+Útskýrðu vandamálið hér.
+    </textarea> <br>
+    <input type="submit">
+</form> 
