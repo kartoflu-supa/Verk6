@@ -17,6 +17,15 @@ form{
   color: rgba(0,0,0,0);
   background-color: rgba(0,0,0,0);
 }
+th, td{
+  padding: 1em;
+  background-color: rgb(160, 160, 160);
+}
+
+table{
+  border-spacing: 1em;
+  background-color: lightgray;
+}
 
 .navbar{
   padding: 1em;

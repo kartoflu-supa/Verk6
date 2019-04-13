@@ -4,6 +4,9 @@
 body {
   background-color: #ecec5b; }
 
+form {
+  font-family: impact; }
+
 .grid2p {
   display: grid;
   grid-template-columns: 1fr;
@@ -12,6 +15,14 @@ body {
 .nav {
   color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0); }
+
+th, td {
+  padding: 1em;
+  background-color: #a0a0a0; }
+
+table {
+  border-spacing: 1em;
+  background-color: lightgray; }
 
 .navbar {
   padding: 1em;
