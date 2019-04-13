@@ -5,7 +5,9 @@ body {
   background-color: #ecec5b; }
 
 form {
-  font-family: impact; }
+  font-family: impact;
+  border: 3px solid black;
+  border-collapse: collapse; }
 
 .grid2p {
   display: grid;
@@ -15,14 +17,6 @@ form {
 .nav {
   color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0); }
-
-th, td {
-  padding: 1em;
-  background-color: #a0a0a0; }
-
-table {
-  border-spacing: 1em;
-  background-color: lightgray; }
 
 .navbar {
   padding: 1em;
@@ -39,7 +33,24 @@ table {
 .size {
   width: 140%; }
 
+legend {
+  font-family: 'Courier New';
+  border: 3px solid black;
+  width: 60%;
+  border-collapse: collapse; }
+
 @media screen and (max-width: 460px) {
+  form {
+    display: block;
+    border: 3px solid black;
+    border-collapse: collapse; }
+
+  legend {
+    font-family: 'Courier New';
+    border: 3px solid black;
+    width: 80%;
+    border-collapse: collapse; }
+
   .dropdown {
     position: relative;
     display: inline-block; }
@@ -70,6 +81,14 @@ table {
   .navbar {
     text-align: center;
     background-color: rgba(0, 255, 255, 0.637); }
+
+  th, td {
+    padding: 1em;
+    background-color: #a0a0a0; }
+
+  table {
+    border-spacing: 1em;
+    background-color: lightgray; }
 
   .size {
     width: 140%; } }
